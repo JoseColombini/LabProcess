@@ -29,5 +29,5 @@ loop:
 end:
     SWI 0x123456
 
-fibonacci: .skip 47*4
-n:  .word 5
+fibonacci: .skip 60*4
+n:  .word 59
