@@ -1,3 +1,8 @@
+/*
+    arm-elf-gcc -g -o [nomedesejado] [nomedestearquivo]
+    arm-elf-gdb [nomedoarquivogerado]
+
+ */
    .text
    .globl main
 main:

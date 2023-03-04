@@ -7,10 +7,10 @@
     .text
     .globl main
 main:
-    LDR     r1, =0x16C764CB @X de entrada
+    LDR     r1, =0x5555AAAA @X de entrada
     LDR     r2, =0x0        @Z de saida 
-    LDR     r8, =0b1011      @Sequencia a ser reconhecida
-    LDR     r9, =4          @Tamanho da sequencia
+    LDR     r8, =5      @Sequencia a ser reconhecida
+    LDR     r9, =3          @Tamanho da sequencia
 
 
     RSB     r5, r9, #32

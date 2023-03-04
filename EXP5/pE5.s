@@ -1,7 +1,7 @@
    .text
    .globl main
 main:     
-   LDR     r1, =0x16C764CB  @ p/t $r1 para o valor em binário
+   LDR     r1, =0x5555AAAA  @ p/t $r1 para o valor em binário
    LDR     r2, =0x0
    LDR     r3, =0x0
    LDR     r4, =32
@@ -9,7 +9,7 @@ main:
 
    MOV   r6, r1
 
-   LDR     r8, =7  @Y 
+   LDR     r8, =5  @Y 
    LDR     r9, =3  @len(Y)
    RSB     r10, r9, #32
 
